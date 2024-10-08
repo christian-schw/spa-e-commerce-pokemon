@@ -1,2 +1,2 @@
-# spa-e-commerce-pokemon
-Single-Page Application: E-Commerce Website where you can browse, buy and collect Pokemon.
+# SPA: E-Commerce-Shop Pokemon
+Single-Page Application: E-Commerce Shop where you can browse, buy and collect Pokemon.
