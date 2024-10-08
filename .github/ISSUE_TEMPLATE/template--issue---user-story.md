@@ -7,29 +7,64 @@ assignees: ''
 
 ---
 
-**Feature**: 
+<br>
+
+> [!IMPORTANT]
+> Regarding 'Feature Description' and 'Acceptance Criteria':<br>
+> Always use same syntax!!! Consistency is key.<br>
+> Makes testing easier.
+>
+> Use Gherkin-Syntax.<br>
+> For example:
+> 
+> Given [some context]<br>
+> When [certain action is taken]<br>
+> Then [the outcome of action is observed]
+>
+> Complete example at the end.
+
+<br>
+
+## Feature Description:
+**Feature**: [feature]
+
 **As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
-   
- ### Details and Assumptions:
+**I need** [function]  
+**So that** [benefit]
+
+**As a** [role]  
+**I need** [function]  
+**So that** [benefit] 
+
+<br>
+<br>
+
+ ## Details and Assumptions:
  - [document what you know]
-   
- ### Acceptance Criteria:
-1) Acceptance Criteria:
-**Given** I visit the website with Cards & Grid layout
-**When** no matter what screen size I use
-**Then** a maximum of 3 columns should be displayed in Cards-Grid-Layout.
 
+<br>
+<br>
+
+ ## Acceptance Criteria:
+1) Acceptance Criteria / Scenario:<br>
+[acceptance criteria / scenario]
+2) Acceptance Criteria / Scenario:<br>
+[acceptance criteria / scenario]
+
+<br>
+<br>
+
+ ## Example:
  ```
- Always use same syntax!!! Consistency is key. Makes testing easier.
+***********************************************
+********** Example (with Background) **********
+***********************************************
 
- Gherkin-Syntax:
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+Feature: The product store service back-end
+    As a Product Store Owner
+    I need a RESTful catalog service
+    So that I can keep track of all my products
 
-Example (with Background):
 Background:
     Given the following products
         | name       | description     | price   | available | category   |
@@ -163,5 +198,5 @@ Scenario: Searching a Product based on Name
     And I should see "Big Mac" in the "Name" field
     And I should see "1/4 lb burger" in the "Description" field
 
-...
+and so on...
  ```
