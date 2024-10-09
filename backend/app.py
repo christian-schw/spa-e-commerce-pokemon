@@ -16,6 +16,9 @@ app.config.from_object(config)
 
 @app.route("/")
 def hello_world():
+    """
+    Return 'Hello World'-paragraph.
+    """
     return "<p>Hello, World!</p>"
 
 
