@@ -1,2 +1,0 @@
-# Ignore automatically created Pycache when, for example, Flask App is started.
-/backend/__pycache__/
