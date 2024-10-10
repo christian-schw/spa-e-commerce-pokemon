@@ -25,8 +25,8 @@ def hello_world():
 if __name__ == "__main__":
     # Setting debug to True enables debug output if errors occur.
     #
-    # ***IMPORTANT***: Line should be removed before deploying a production app!!!!
+    # ***IMPORTANT***: 'app.debug = True' should be commented out before deploying a production app!!!!
     # Good practice for development, but can reveal internal aspects of application
     # --> Security Threat.
-    app.debug = True
+    # app.debug = True
     app.run()
