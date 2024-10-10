@@ -2,7 +2,7 @@
 Instantiation of Flask application
 """
 
-from flask import Flask, send_from_directory
+from flask import Flask, send_from_directory, jsonify
 from flask_cors import CORS
 import config
 
@@ -46,6 +46,18 @@ def catch_all(path):  # pylint: disable=W0613
     to a specific route when a user enters an invalid URL.
     """
     return send_from_directory(app.static_folder, "index.html")
+
+
+# ========== API for Test Purposes ===========
+@app.route("/api/users", methods=["GET"])
+def users():
+    """
+    Test API: Return Users-JSON.
+    """
+    return jsonify({"users": ["Chris", "Sophia", "Augustinus"]})
+
+
+# ============================================
 
 
 if __name__ == "__main__":
