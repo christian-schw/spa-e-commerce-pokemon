@@ -1,6 +1,7 @@
 {
   "name": "spa-e-commerce-pokemon-shop",
   "version": "1.0.0",
+  "description": "Full Stack Single-Page Application: E-Commerce Shop where you can browse, buy and collect Pokemon. Catch 'em All!",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -8,6 +9,31 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christian-schw/spa-e-commerce-pokemon.git"
+  },
+  "keywords": [
+    "full-stack",
+    "spa-e-commerce-pokemon-shop",
+    "react",
+    "flask",
+    "aws",
+    "typescript",
+    "redux",
+    "javascript",
+    "python",
+    "html",
+    "css",
+    "poke-api",
+    "pokemon"
+  ],
+  "author": "Christian Schwanse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christian-schw/spa-e-commerce-pokemon/issues"
+  },
+  "homepage": "https://github.com/christian-schw/spa-e-commerce-pokemon#readme",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
