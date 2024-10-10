@@ -29,6 +29,21 @@ def home_page():
     return send_from_directory(app.static_folder, "index.html")
 
 
+@app.route("/", defaults={"path": ""})
+@app.route("/<path:path>")
+def catch_all(path): # pylint: disable=W0613
+    """
+    Catch-all route to handle redirects for single-page application.
+
+    Catch-all routes are used to match any URL that does not match
+    any other route in the application.
+
+    This is useful for displaying a 404 page or redirecting
+    to a specific route when a user enters an invalid URL.
+    """
+    return send_from_directory(app.static_folder, "index.html")
+
+
 if __name__ == "__main__":
     # Setting debug to True enables debug output if errors occur.
     #
