@@ -6,7 +6,8 @@ import axios from 'axios'
 
 function App() {
   const [count, setCount] = useState(0)
-  // Test Flask API
+
+  // Test Flask API. TODO: Delete code later.
   const [users, setUsers] = useState([])
 
   const fetchUsers = async () => {
@@ -15,9 +16,17 @@ function App() {
     setUsers(response.data.users)
   }
 
+  // Test Health Check. TODO: Delete code later.
+  const healthCheck = async () => {
+    const response = await axios.get("http://localhost:5000/health-check")
+    console.log(response.data)
+  }
+
   useEffect(() => {
     fetchUsers()
+    healthCheck()
   }, [])
+
 
   return (
     <>

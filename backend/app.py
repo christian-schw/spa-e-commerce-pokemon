@@ -9,6 +9,7 @@ from common import paths
 import config
 from home.views import home_bp
 from test_api.views import test_api_bp
+from health_check.views import health_check_bp
 
 
 # Instantiate app
@@ -32,6 +33,7 @@ cors = CORS(app, origins="*")
 # Register Routes / Views using Blueprints
 app.register_blueprint(home_bp)
 app.register_blueprint(test_api_bp)
+app.register_blueprint(health_check_bp)
 
 
 if __name__ == "__main__":
