@@ -1,10 +1,23 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import axios from 'axios'
 
 function App() {
   const [count, setCount] = useState(0)
+  // Test Flask API
+  const [users, setUsers] = useState([])
+
+  const fetchUsers = async () => {
+    const response = await axios.get("http://localhost:5000/api/users")
+    console.log(response.data.users)
+    setUsers(response.data.users)
+  }
+
+  useEffect(() => {
+    fetchUsers()
+  }, [])
 
   return (
     <>
@@ -22,7 +35,12 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          {/* Test Flask API */}
+          {
+            users.map((user, index) => (
+              <span key={index}>User: {user}<br /></span>
+            ))
+          }
         </p>
       </div>
       <p className="read-the-docs">
