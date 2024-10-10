@@ -10,7 +10,7 @@ function App() {
   const [users, setUsers] = useState([])
 
   const fetchUsers = async () => {
-    const response = await axios.get("http://localhost:5000/api/users")
+    const response = await axios.get("http://localhost:5000/test-api/users")
     console.log(response.data.users)
     setUsers(response.data.users)
   }

@@ -2,9 +2,13 @@
 Instantiation of Flask application
 """
 
-from flask import Flask, send_from_directory, jsonify
+from flask import Flask
 from flask_cors import CORS
+
+from common import paths
 import config
+from home.views import home_bp
+from test_api.views import test_api_bp
 
 
 # Instantiate app
@@ -15,7 +19,7 @@ import config
 # All HTML pages are in the frontend folder and
 # **not** in a (Flask) templates folder.
 # Therefore a static folder must be set.
-app = Flask(__name__, static_folder="../frontend")
+app = Flask("Server E-Commerce Pokemon", static_folder=paths.CLIENT_FOLDER)
 
 # Load configurations
 app.config.from_object(config)
@@ -25,39 +29,9 @@ app.config.from_object(config)
 cors = CORS(app, origins="*")
 
 
-@app.route("/")
-def home_page():
-    """
-    Render homepage
-    """
-    return send_from_directory(app.static_folder, "index.html")
-
-
-@app.route("/", defaults={"path": ""})
-@app.route("/<path:path>")
-def catch_all(path):  # pylint: disable=W0613
-    """
-    Catch-all route to handle redirects for single-page application.
-
-    Catch-all routes are used to match any URL that does not match
-    any other route in the application.
-
-    This is useful for displaying a 404 page or redirecting
-    to a specific route when a user enters an invalid URL.
-    """
-    return send_from_directory(app.static_folder, "index.html")
-
-
-# ========== API for Test Purposes ===========
-@app.route("/api/users", methods=["GET"])
-def users():
-    """
-    Test API: Return Users-JSON.
-    """
-    return jsonify({"users": ["Chris", "Sophia", "Augustinus"]})
-
-
-# ============================================
+# Register Routes / Views using Blueprints
+app.register_blueprint(home_bp)
+app.register_blueprint(test_api_bp)
 
 
 if __name__ == "__main__":
