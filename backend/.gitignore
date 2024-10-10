@@ -3,4 +3,4 @@
 # ==========================================
 
 # Ignore automatically created Pycache when, for example, Flask App is started.
-/__pycache__/
+__pycache__
