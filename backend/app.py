@@ -3,6 +3,7 @@ Instantiation of Flask application
 """
 
 from flask import Flask, send_from_directory
+from flask_cors import CORS
 import config
 
 
@@ -16,9 +17,12 @@ import config
 # Therefore a static folder must be set.
 app = Flask(__name__, static_folder="../frontend")
 
-
 # Load configurations
 app.config.from_object(config)
+
+# Let the server accept CORS so that the frontend can access the backend, for example.
+# For a start, everything is accepted. Can be adapted later.
+cors = CORS(app, origins="*")
 
 
 @app.route("/")
@@ -31,7 +35,7 @@ def home_page():
 
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>")
-def catch_all(path): # pylint: disable=W0613
+def catch_all(path):  # pylint: disable=W0613
     """
     Catch-all route to handle redirects for single-page application.
 
