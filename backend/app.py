@@ -18,9 +18,9 @@ from health_check.views import health_check_bp
 # Add them below instatiation of app.
 #
 # ********* Note about variable app / application *********
-# The Flask app is normally called an 'app'. 
-# The website is hosted with AWS Elastic Beanstalk (EB). 
-# EB searches for 'application' instead of 'app' by default. 
+# The Flask app variable is normally called as 'app'.
+# The website is hosted with AWS Elastic Beanstalk (EB).
+# EB searches for 'application' instead of 'app' by default.
 # This naming convention must be observed!
 #
 # ********* Note about static_folder *********
