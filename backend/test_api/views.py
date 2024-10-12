@@ -9,7 +9,7 @@ test_api_bp = Blueprint("test_api_bp", __name__)
 
 
 # API for Test Purposes
-@test_api_bp.route("/test-api/users", methods=["GET"])
+@test_api_bp.route("/test-api/test1", methods=["GET"])
 def users():
     """
     Test API: Return Users-JSON.
