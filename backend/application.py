@@ -37,12 +37,13 @@ application.config.from_object(config)
 # For a start, everything is accepted. Can be adapted later.
 cors = CORS(application, origins="*")
 
+# TODO: Delete this comment if not needed after deploying Flask / React application!
 # Tell Flask it's behind a proxy.
 # For more information, see Flask documentation
 # 'Deploy to Production' -> 'Tell Flask it is Behind a Proxy'.
-application.wsgi_app = ProxyFix(
-    application.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1
-)
+# application.wsgi_app = ProxyFix(
+#     application.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1
+# )
 
 # Register Routes / Views using Blueprints
 application.register_blueprint(home_bp)
