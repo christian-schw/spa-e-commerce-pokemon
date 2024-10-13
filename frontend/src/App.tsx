@@ -7,18 +7,27 @@ import axios from 'axios'
 function App() {
   const [count, setCount] = useState(0)
 
-  // Test Flask API. TODO: Delete code later.
+  // Test Flask API. TODO: Delete all code later.
   const [users, setUsers] = useState([])
 
+  // NOTE: Improve in future. Store it globally
+  const pokemonAPI = {
+    domain: {
+      // Local Development Server started with Flask
+      dev: "http://127.0.0.1:5000",
+      // Hosted API
+      prod: "http://trainers-trove.eu-central-1.elasticbeanstalk.com"
+    }
+  }
+
   const fetchUsers = async () => {
-    const response = await axios.get("http://localhost:5000/test-api/users")
+    const response = await axios.get(pokemonAPI.domain.prod.concat("/test-api/test1"))
     console.log(response.data.users)
     setUsers(response.data.users)
   }
 
-  // Test Health Check. TODO: Delete code later.
   const healthCheck = async () => {
-    const response = await axios.get("http://localhost:5000/health-check")
+    const response = await axios.get(pokemonAPI.domain.prod.concat("/health-check"))
     console.log(response.data)
   }
 
