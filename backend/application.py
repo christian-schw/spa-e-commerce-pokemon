@@ -8,11 +8,11 @@ Instantiation of Flask application
 
 
 # ========== Third Party Imports ==========
-from flask import Flask, render_template
+from flask import Flask
 from flask_cors import CORS
 
 # TODO: Delete this comment if not needed after deploying Flask!  # pylint: disable=W0511
-from werkzeug.middleware.proxy_fix import ProxyFix
+# from werkzeug.middleware.proxy_fix import ProxyFix
 
 
 # ========== Internal Imports ==========
