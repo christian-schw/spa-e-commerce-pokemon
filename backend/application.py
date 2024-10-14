@@ -30,7 +30,7 @@ application.config.from_object(config)
 # NOTE: Improve in future. For a start, everything is accepted. Can be adapted later.
 cors = CORS(application, origins="*")
 
-# Register Routes / Views using Blueprints
+# Register Routes / Views using Blueprints (e. g. to avoid circular imports)
 application.register_blueprint(test_api_bp)
 application.register_blueprint(health_check_bp)
 
