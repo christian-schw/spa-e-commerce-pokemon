@@ -20,6 +20,7 @@ from health_check.views import health_check_bp  # pylint: disable=C0413
 # The website is hosted with AWS Elastic Beanstalk (EB).
 # EB searches for 'application' instead of 'app' by default.
 # This naming convention must be adhered to!
+# ==================================================================
 application = Flask("Server E-Commerce Pokemon Shop: Trainer's Trove")
 
 # Load configurations
@@ -35,6 +36,7 @@ application.register_blueprint(health_check_bp)
 
 
 if __name__ == "__main__":
+    # ==================== Server Debugging ====================
     # Setting debug to True enables debug output if errors occur.
     #
     # ***IMPORTANT***:
@@ -42,4 +44,20 @@ if __name__ == "__main__":
     # Good practice for development, but can reveal internal aspects of application
     # --> Security Threat.
     # application.debug = True
+    # ==========================================================
+
+    # ==================== HTTPS Communication ====================
+    # Server responses must run via HTTPS, as they could otherwise be blocked.
+    #
+    # For example, you can use a self-signed certificate
+    # --> E.g. by adding the parameter "ssl_context='adhoc'" to the Flask run method call).
+    #
+    # Web browsers and other HTTP clients come pre-configured with a list of known and trusted CAs,
+    # but obviously if you use a self-signed certificate
+    # the CA is not going to be known and validation will fail.
+    #
+    # Implemented solution: Backend runs via AWS Elastic Beanstalk.
+    # Additional AWS configuration undertaken to run communication over HTTPS.
+    # ==========================================================
+
     application.run()
