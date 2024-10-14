@@ -17,7 +17,7 @@ from health_check.views import health_check_bp  # pylint: disable=C0413
 #
 # ********* Note about variable app / application *********
 # The Flask app variable is normally called as 'app'.
-# The website is hosted with AWS Elastic Beanstalk (EB).
+# The app is hosted with AWS Elastic Beanstalk (EB).
 # EB searches for 'application' instead of 'app' by default.
 # This naming convention must be adhered to!
 # ==================================================================
@@ -40,7 +40,7 @@ if __name__ == "__main__":
     # Setting debug to True enables debug output if errors occur.
     #
     # ***IMPORTANT***:
-    # 'application.debug = True' should be commented out before deploying a production app!!!!
+    # 'application.debug = True' should be commented out before deploying a production app!
     # Good practice for development, but can reveal internal aspects of application
     # --> Security Threat.
     # application.debug = True
