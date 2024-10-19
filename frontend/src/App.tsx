@@ -16,7 +16,7 @@ function App() {
       // Local Development Server started with Flask
       dev: "http://127.0.0.1:5000",
       // Hosted API
-      prod: "http://trainers-trove.eu-central-1.elasticbeanstalk.com"
+      prod: "https://data-factories.com"
     }
   }
 
