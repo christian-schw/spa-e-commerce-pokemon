@@ -5,21 +5,24 @@ Instantiation of Flask application
 from flask import Flask
 from flask_cors import CORS
 
-import config  # pylint: disable=C0413
-from shared.utils.test_api.views import test_api_bp  # pylint: disable=C0413
-from shared.utils.health_check.views import health_check_bp  # pylint: disable=C0413
+import config
+from shared.utils.test_api.views import test_api_bp
+from shared.utils.health_check.views import health_check_bp
 
 
 # ==================== Instantiate App =============================
 #
+# ***************** Note about imports *****************
 # Flask app must be created BEFORE you import modules that depend on it!
 # Add them below instatiation of app.
+# E. g. blueprints solve this problem and avoid circular imports.
 #
 # ********* Note about variable app / application *********
 # The Flask app variable is normally called as 'app'.
 # The app is hosted with AWS Elastic Beanstalk (EB).
 # EB searches for 'application' instead of 'app' by default.
 # This naming convention must be adhered to!
+#
 # ==================================================================
 application = Flask("Server E-Commerce Pokemon Shop: Trainer's Trove")
 
