@@ -3,7 +3,7 @@ Routes of Health Check
 """
 
 from flask import Blueprint, jsonify
-from common.status_codes import HTTP_200_OK
+from ..status_codes import HTTP_200_OK
 
 
 health_check_bp = Blueprint("health_check_bp", __name__)

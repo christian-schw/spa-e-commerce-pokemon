@@ -6,8 +6,8 @@ from flask import Flask
 from flask_cors import CORS
 
 import config  # pylint: disable=C0413
-from test_api.views import test_api_bp  # pylint: disable=C0413
-from health_check.views import health_check_bp  # pylint: disable=C0413
+from shared.utils.test_api.views import test_api_bp  # pylint: disable=C0413
+from shared.utils.health_check.views import health_check_bp  # pylint: disable=C0413
 
 
 # ==================== Instantiate App =============================
