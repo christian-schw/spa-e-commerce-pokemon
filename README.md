@@ -17,22 +17,22 @@ Single-Page Application: E-Commerce Shop where you can browse, buy and collect P
         <li>
           <a href="#tech-stack---general">Tech Stack - General</a>
           <ul>
-            <li><a href="#list">List</a></li>
-            <li><a href="#reasons-for-the-selection">Reasons for the Selection</a></li>
+            <li><a href="#general---list">General -List</a></li>
+            <li><a href="#general---reasons-for-the-selection">General - Reasons for the Selection</a></li>
           </ul>
         </li>
         <li>
           <a href="#tech-stack---backend">Tech Stack - Backend</a>
           <ul>
-            <li><a href="#list">List</a></li>
-            <li><a href="#reasons-for-the-selection">Reasons for the Selection</a></li>
+            <li><a href="#backend---list">Backend - List</a></li>
+            <li><a href="#backend---reasons-for-the-selection">Backend - Reasons for the Selection</a></li>
           </ul>
         </li>
         <li>
           <a href="#tech-stack---frontend">Tech Stack - Frontend</a>
           <ul>
-            <li><a href="#list">List</a></li>
-            <li><a href="#reasons-for-the-selection">Reasons for the Selection</a></li>
+            <li><a href="#frontend---list">Frontend - List</a></li>
+            <li><a href="#frontend---reasons-for-the-selection">Frontend - Reasons for the Selection</a></li>
           </ul>
         </li>
       </ul>
@@ -83,14 +83,14 @@ Pictures during the planning phase for a first impression of the project:<br>
 <br>
 
 ### Tech Stack - General
-#### List
+#### General - List
 - Mind Mapping Tool: XMind
 - IDE: Microsoft Visual Studio
 - GitHub (Version Control, Kanban Board, ...)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 
-#### Reasons for the Selection
+#### General - Reasons for the Selection
 TODO: Implement<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
@@ -98,12 +98,12 @@ TODO: Implement<br>
 
 
 ### Tech Stack - Backend
-#### List
+#### Backend - List
 - Programming Language: Python
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 
-#### Reasons for the Selection
+#### Backend - Reasons for the Selection
 TODO: Implement
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
@@ -111,7 +111,7 @@ TODO: Implement
 
 
 ### Tech Stack - Frontend
-#### List
+#### Frontend - List
 - Markup Language: HTML
 - Markup Language: CSS
 - Programming Language: JavaScript / TypeScript
@@ -123,7 +123,7 @@ TODO: Implement
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 
-#### Reasons for the Selection
+#### Frontend - Reasons for the Selection
 TODO: Implement
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
