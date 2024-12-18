@@ -15,6 +15,7 @@ Single-Page Application: E-Commerce Shop where you can browse, buy and collect P
       <ul>
         <li><a href="#general">General</a></li>
         <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#contributors">Contributors</a></li>
         <li>
           <a href="#tech-stack---general">Tech Stack - General</a>
           <ul>
@@ -41,6 +42,7 @@ Single-Page Application: E-Commerce Shop where you can browse, buy and collect P
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#project-folder-layout">Project Folder Layout</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgments</a></li>
   </ol>
 </details>
 <br>
@@ -90,6 +92,13 @@ Pictures during the planning phase for a first impression of the project:<br>
     - [ ] Nested Feature
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
+
+
+### Contributors
+TODO: Restructure readme.md. Not satisfied with current structure.<br>
+See Best-README-Template as well.<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 
@@ -176,4 +185,14 @@ The code follows the **Model-View-Controller** pattern with all of the database 
 
 ## Contact
 If you have any questions, please feel free to reach out via email: christian-schwanse (at) gmx.net<br>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
+<br>
+
+## Acknowledgements
+
+* []()
+* []()
+* []()
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
