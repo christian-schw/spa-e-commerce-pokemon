@@ -14,6 +14,7 @@ Single-Page Application: E-Commerce Shop where you can browse, buy and collect P
       <a href="#information-about-the-project">Information about the Project</a>
       <ul>
         <li><a href="#general">General</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
         <li>
           <a href="#tech-stack---general">Tech Stack - General</a>
           <ul>
@@ -80,6 +81,16 @@ Pictures during the planning phase for a first impression of the project:<br>
 - Role: Developer
 - Languages: German, English
 - Result: TODO
+<br>
+
+### Roadmap
+- [ ] Feature 1
+- [ ] Feature 2
+- [ ] Feature 3
+    - [ ] Nested Feature
+
+See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 
 ### Tech Stack - General
