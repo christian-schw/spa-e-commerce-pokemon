@@ -1,8 +1,4 @@
 # Frontend of SPA E-Commerce Pokemon Shop
-TODO: Provide explanation about frontend.
-
-
-
 ## React + TypeScript + Vite
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
