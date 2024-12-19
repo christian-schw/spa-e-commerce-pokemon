@@ -45,8 +45,8 @@
 
 
 ## Introduction
-E-Commerce Shop where you can browse, buy and collect Pokemon.<br>
-The shop is built as a single page application (SPA) to ensure a better user experience!<br>
+E-Commerce Shop where you can browse, buy and collect Pokémon.<br>
+The shop is built as a single page application (SPA) to ensure a great user experience!<br>
 <br>
 Teaser pictures of the initial design mockups during the planning phase for a first impression of the project:<br>
 
