@@ -165,7 +165,7 @@ TODO: Implement diagramm (e. g. AWS)<br>
 
 ### Contributors
 Contributors:
-- Designer: <a href="www.combine-visual.com" target="_blank">combine visual - Christine Biendl</a>
+- Designer: [combine visual - Christine Biendl](www.combine-visual.com)
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request.<br>
 You can also simply open an issue with the tag `enhancement`.<br>
