@@ -20,6 +20,7 @@
         <li><a href="#contributors">Contributors</a></li>
         <li><a href="#license">License</a></li>
         <li><a href="#getting-started">Getting Started</a></li>
+        <li><a href="#acknowledgements">Acknowledgements</a></li>
         <li>
           <a href="#tech-stack---backend">Tech Stack - Backend</a>
           <ul>
@@ -36,8 +37,6 @@
         </li>
       </ul>
     </li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgments</a></li>
   </ol>
 </details>
 <br>
@@ -170,6 +169,17 @@ TODO: Implement (individually for backend and frontend as well as together)<br>
 <br>
 
 
+## Acknowledgements
+TODO: Mention PokeAPI, Designer, Pokemon Franchise, README-Template-Repo and people who taught me a lot.<br>
+* []()
+* []()
+* []()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
+<br>
+
+
 ### Tech Stack - Backend
 #### Backend - List
 - Programming Language: Python
@@ -208,11 +218,3 @@ If you have any questions, please feel free to reach out via email: christian-sc
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
-
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
