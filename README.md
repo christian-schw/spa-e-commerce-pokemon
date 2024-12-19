@@ -17,6 +17,7 @@
         <li><a href="#general---tech-stack">General - Tech Stack</a></li>
         <li><a href="#general---reasons-for-the-tech-stack-selection">General - Reasons for the Tech Stack Selection</a></li>
         <li><a href="#contributors">Contributors</a></li>
+        <li><a href="#license">License</a></li>
         <li>
           <a href="#tech-stack---backend">Tech Stack - Backend</a>
           <ul>
@@ -144,6 +145,14 @@ TODO: Implement<br>
 TODO: Mention contributing note like in BLANK_README.md of Best-README-Template.<br>
 TODO: Mention designer (for more details view corresponding user story 'Create README.md')<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
+<br>
+
+
+## License
+TODO: Implement. Not sure if I need this.<br>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
 <br>
 
 
