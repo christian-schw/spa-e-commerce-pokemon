@@ -163,23 +163,33 @@ The tech stack - `General`:<br>
 ### General - Reasons for the Tech Stack Selection
 I opted for the Tech Stack for the following reasons:<br>
 <br>
-`Mind Mapping Tool: XMind` - Already used in past projects, so already know how to use the tool. Very good for finding ideas and organizing thoughts.<br>
+`Mind Mapping Tool: XMind` - Already used in past projects, so already know how to use the tool.<br>
+Very good for finding ideas and organizing thoughts.<br>
 <br>
-`IDE: Microsoft Visual Studio` - Already used in past projects, so already know how to use the tool. Offers a lot of functions and, due to its popularity, also has a lot of documentation / extensions.<br>
+`IDE: Microsoft Visual Studio` - Already used in past projects, so already know how to use the tool.<br>
+Offers a lot of functions and, due to its popularity, also has a lot of documentation / extensions.<br>
 <br>
-`GitHub (Version Control, Kanban Board, ...)` - Industry standard. Even as a solo developer, this is very helpful if you can version manage your code (e. g. undo incorrect changes). Offers many functions and lots of documentation.<br>
+`GitHub (Version Control, Kanban Board, ...)` - Industry standard.<br>
+Even as a solo developer, this is very helpful if you can version manage your code (e. g. undo incorrect changes).<br>
+Offers many functions and lots of documentation.<br>
 <br>
-`AWS in general` - Since I like to deal with the cloud and would like to get better at it, I used one of the most popular cloud providers. I chose AWS because I have also found several jobs in my area and would like to stay there.<br>
+`AWS in general` - Since I like to deal with the cloud and would like to get better at it, I used one of the most popular cloud providers.<br>
+I chose AWS because I have also found several jobs in my area and would like to stay there.<br>
 <br>
 `Identity and Access Management: AWS IAM` - To increase security of AWS tech stack among other things (e.g. do not use the root user for everything, but non-root users).<br>
 <br>
-`Identity and Access Management: Microsoft Authenticator` - To set up multi-factor authentication for AWS. Already used for other things and have been satisfied so far. That's why I opted for it again here.<br>
+`Identity and Access Management: Microsoft Authenticator` - To set up multi-factor authentication for AWS.<br>
+Already used for other things and have been satisfied so far.<br>
+That's why I opted for it again here.<br>
 <br>
-`Hosting (Security): AWS Certificate Manager` - To improve the security of communication over the Internet. In addition, better user experience when, for example, the browser does not say that the website is insecure and blocks connection, which gives users a greater sense of security.<br>
+`Hosting (Security): AWS Certificate Manager` - To improve the security of communication over the Internet.<br>
+In addition, better user experience when, for example, the browser does not say that the website is insecure and blocks connection, which gives users a greater sense of security.<br>
 <br>
-`Monitoring: AWS CloudWatch` - As I cannot estimate the costs of AWS, I have set up alerts as soon as certain values exceed a limit. This means I don't have to check the costs manually every time and can react more quickly.<br>
+`Monitoring: AWS CloudWatch` - As I cannot estimate the costs of AWS, I have set up alerts as soon as certain values exceed a limit.<br>
+This means I don't have to check the costs manually every time and can react more quickly.<br>
 <br>
-`Monitoring: AWS Billing and Cost Management` - Overview of AWS costs. Goes hand in hand somewhere with AWS CloudWatch Alerting.<br>
+`Monitoring: AWS Billing and Cost Management` - Overview of AWS costs.<br>
+Goes hand in hand somewhere with AWS CloudWatch Alerting.<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
@@ -314,8 +324,25 @@ TODO: Mention GitHub Kanban Board and XMind Mindmap. Also TDD and CI/CD.<br>
 
 
 ### Backend - Reasons for the Tech Stack Selection
-TODO: Implement<br>
-TODO: Explain further -> Originally planned AWS Elastic Beanstalk, but due to running costs and because this is a hobby project, another payment model (pay-as-you-go) with Amazon Lambda or similar would be good.<br>
+I opted for the Tech Stack for the following reasons:<br>
+<br>
+`Programming Language: Python` - Already completed many projects with Python.<br>
+I didn't know any other backend language at the time (apart from JavaScript, but I'm not familiar with backend frameworks or ABAP - but that's only for SAP).<br>
+<br>
+`Linting: PyLint` - Linting tools offer a crucial benefit in error prevention by identifying issues as they are created, even before code execution.<br>
+This significantly improves code reliability and reduces likelihood of issues ever turning into bugs.<br>
+I have used PyLint several times and am quite happy with it.<br>
+<br>
+`Web Framework: Flask` - Already completed projects with Flask.<br>
+I opted for it (and against Django, for example) because Flask is more suitable for smaller use cases and I don't have the time to build a huge backend anyway.<br>
+<br>
+`TDD Framework: unittest / nose` - Already completed projects with it.<br>
+In my opinion, it offers all the functions you need.<br>
+<br>
+`Hosting: AWS Elastic Beanstalk` - As a RESTful API is being developed, among other things, I need a server / have to host it.<br>
+AWS Elastic Beanstalk offers a beginner-friendly setup.<br>
+However, I am considering switching to AWS Lambda (Function as a Service), for example.<br>
+Originally I wanted to use AWS Elastic Beanstalk, but due to running costs and because this is a hobby project, maybe AWS Lambda with a different payment model (Pay-as-you-go) is cheaper in the long run.<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
