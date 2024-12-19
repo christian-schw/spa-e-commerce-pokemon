@@ -297,15 +297,15 @@ It offers a lot and I can leave my comments on the design mockups.<br>
 `Library: React` - I learned React through further education and React also offers the most job opportunities in my area, where I would like to stay.<br>
 That's why I chose React.<br>
 <br>
-`Library: Redux` - Very good for managing states of UI/React components efficiently and easily.<br>
-Used together with the Redux Toolkit to make things even easier (e. g. to combine reducers or easy redux store setup).<br>
+`Library: Redux` - Very good for managing states of UI / React components efficiently and easily.<br>
+Used together with the Redux Toolkit to make things even easier (e. g. to combine reducers or easy Redux store setup).<br>
 <br>
 `Build Tool: Vite` - Used to optimize code for the production system (faster build times and smaller bundle sizes).<br>
 Was also used in React course and therefore knew the tool - learning curve is smaller.<br>
 <br>
 `Linting: ESLint` - Linting tools offer a crucial benefit in error prevention by identifying issues as they are created, even before code execution.<br>
 This significantly improves code reliability and reduces likelihood of issues ever turning into bugs.<br>
-I have used ESLint several times and am quite happy with it.<br>
+I have used ESLint several times and I am quite happy with it.<br>
 <br>
 `TDD Framework: Jest` - Already completed projects with it.<br>
 In my opinion, it offers all the functions you need.<br>
@@ -314,8 +314,8 @@ In my opinion, it offers all the functions you need.<br>
 The costs are very low and is easy to integrate with other AWS services.<br>
 <br>
 `Hosting (DNS): AWS Route 53` - AWS S3 provides predefined "weird" domain (like `http://www.domain.com.s3-website.availability-zone.amazonaws.com/`).<br>
-This is very long and user unfriendly.<br>
-Therefore, AWS Route 53 is used as DNS to use a nice short, user-friendly domain.<br>
+This is very long and user-unfriendly.<br>
+Therefore, AWS Route 53 is used as DNS to create a nice short, user-friendly domain.<br>
 The endpoint remains the same for the client and the services can also be exchanged more easily in the background.<br>
 Integrates nicely with AWS S3.<br>
 <br>
@@ -341,9 +341,9 @@ Other reasons are:
 
 The frontend is also being developed as a `single-page application` (`SPA`).<br>
 A single-page application is a website or web application that dynamically rewrites a current web page with new data from the web server, instead of the default method of a web browser loading entire new pages.<br>
-This can result in performance gains and a more dynamic and better user experience (with some tradeoff disadvantages like search engine optimization).<br>
+This can result in performance gains and a more dynamic and better user experience (with some trade-off disadvantages like search engine optimization).<br>
 <br>
-When it comes to the development of features, these are documented and prioritized in detail as user stories (using a template and Gherkin syntax) in the GitHub Kanban Board (see `Projects` tab in GitHub repository).<br>
+When it comes to the development of features, these are documented and prioritized in detail as user stories (using a template and Gherkin syntax) in the GitHub Kanban Board (see `Projects` tab in repository).<br>
 A new GitHub branch is created for each feature.<br>
 Tests are then developed according to the Test Driven Development approach (also Behavior Driven Development for UI), which must subsequently be fulfilled.<br>
 The development process will also be optimized with CI/CD in the future.<br>
@@ -369,11 +369,13 @@ The development process will also be optimized with CI/CD in the future.<br>
 I opted for the tech stack for the following reasons:<br>
 <br>
 `Programming Language: Python` - Already completed many projects with Python.<br>
-I didn't know any other backend language at the time (apart from JavaScript, but I'm not familiar with backend frameworks or ABAP - but that's only for SAP).<br>
+I didn't know any other backend language at the time.<br>
+I could use JavaScript, but I don't know the backend frameworks.<br>
+I know ABAP too - but that's only for SAP...<br>
 <br>
 `Linting: PyLint` - Linting tools offer a crucial benefit in error prevention by identifying issues as they are created, even before code execution.<br>
 This significantly improves code reliability and reduces likelihood of issues ever turning into bugs.<br>
-I have used PyLint several times and am quite happy with it.<br>
+I have used PyLint several times and I am quite happy with it.<br>
 <br>
 `Web Framework: Flask` - Already completed projects with Flask.<br>
 I opted for it (and against Django, for example) because Flask is more suitable for smaller use cases and I don't have the time to build a huge backend anyway.<br>
@@ -391,7 +393,7 @@ Originally I wanted to use AWS Elastic Beanstalk, but due to running costs and b
 
 
 ### Backend - Development Process
-When it comes to the development of features, these are documented and prioritized in detail as user stories (using a template and Gherkin syntax) in the GitHub Kanban Board (see `Projects` tab in GitHub repository).<br>
+When it comes to the development of features, these are documented and prioritized in detail as user stories (using a template and Gherkin syntax) in the GitHub Kanban Board (see `Projects` tab in repository).<br>
 A new GitHub branch is created for each feature.<br>
 Tests are then developed according to the Test Driven Development approach, which must subsequently be fulfilled.<br>
 The development process will also be optimized with CI/CD in the future.<br>
