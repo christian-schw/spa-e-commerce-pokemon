@@ -22,20 +22,20 @@
         <li><a href="#getting-started">Getting Started</a></li>
         <li><a href="#acknowledgements">Acknowledgements</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li>
-          <a href="#tech-stack---backend">Tech Stack - Backend</a>
-          <ul>
-            <li><a href="#backend---list">Backend - List</a></li>
-            <li><a href="#backend---reasons-for-the-selection">Backend - Reasons for the Selection</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#tech-stack---frontend">Tech Stack - Frontend</a>
-          <ul>
-            <li><a href="#frontend---list">Frontend - List</a></li>
-            <li><a href="#frontend---reasons-for-the-selection">Frontend - Reasons for the Selection</a></li>
-          </ul>
-        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="#frontend">Frontend</a>
+      <ul>
+        <li><a href="#frontend---tech-stack">Frontend - Tech Stack</a>
+        <li><a href="#frontend---reasons-for-the-tech-stack-selection">Frontend - Reasons for the Tech Stack Selection</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#backend">Backend</a>
+      <ul>
+        <li><a href="#backend---tech-stack">Backend - Tech Stack</a>
+        <li><a href="#backend---reasons-for-the-tech-stack-selection">Backend - Reasons for the Tech Stack Selection</a></li>
       </ul>
     </li>
   </ol>
@@ -99,7 +99,7 @@ TODO: Insert link to Projects Tab<br>
 <br>
 
 
-## Project Folder Layout
+### Project Folder Layout
 TODO: Use this section and change it!<br>
 <br>
 The code for the microservice is contained in the `service` package. All of the test are in the `tests` folder.<br>
@@ -124,7 +124,7 @@ The code follows the **Model-View-Controller** pattern with all of the database 
 <br>
 
 
-## General - Tech Stack
+### General - Tech Stack
 TODO: Insert note about backend and frontend specific tech stacks<br>
 - Mind Mapping Tool: XMind
 - IDE: Microsoft Visual Studio
@@ -134,21 +134,21 @@ TODO: Insert note about backend and frontend specific tech stacks<br>
 <br>
 
 
-## General - Reasons for the Tech Stack Selection
+### General - Reasons for the Tech Stack Selection
 TODO: Implement<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
 
 
-## Complete Overview of the System
+### Complete Overview of the System
 TODO: Implement diagramm (e. g. AWS)<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
 
 
-## Contributors
+### Contributors
 TODO: Mention contributing note like in BLANK_README.md of Best-README-Template.<br>
 TODO: Mention designer (for more details view corresponding user story 'Create README.md')<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -156,14 +156,14 @@ TODO: Mention designer (for more details view corresponding user story 'Create R
 <br>
 
 
-## License
+### License
 TODO: Implement. Not sure if I need this.<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
 
 
-## Getting Started
+### Getting Started
 TODO: Implement (individually for backend and frontend as well as together)<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
@@ -181,28 +181,16 @@ TODO: Mention PokeAPI, Designer, Pokemon Franchise, README-Template-Repo and peo
 <br>
 
 
-## Contact
+### Contact
 If you have any questions, please feel free to reach out via email: christian-schwanse (at) gmx.net<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
 
 
-### Tech Stack - Backend
-#### Backend - List
-- Programming Language: Python
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<br>
 
-#### Backend - Reasons for the Selection
-TODO: Implement
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<br>
-<br>
-
-
-### Tech Stack - Frontend
-#### Frontend - List
+## Frontend
+### Frontend - Tech Stack
 - Markup Language: HTML
 - Markup Language: CSS
 - Programming Language: JavaScript / TypeScript
@@ -213,9 +201,24 @@ TODO: Implement
 - Build Tool: Vite
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
+<br>
 
-#### Frontend - Reasons for the Selection
+### Frontend - Reasons for the Tech Stack Selection
 TODO: Implement
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
+
+
+
+## Backend
+### Backend - Tech Stack
+- Programming Language: Python
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
+<br>
+
+
+### Backend - Reasons for the Tech Stack Selection
+TODO: Implement
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
