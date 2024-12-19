@@ -140,9 +140,9 @@ TODO: Implement<br>
 
 
 
-### Contributors
-TODO: Restructure readme.md. Not satisfied with current structure.<br>
-See Best-README-Template as well.<br>
+## Contributors
+TODO: Mention contributing note like in BLANK_README.md of Best-README-Template.<br>
+TODO: Mention designer (for more details view corresponding user story 'Create README.md')<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 
