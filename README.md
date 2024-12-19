@@ -29,6 +29,7 @@
       <ul>
         <li><a href="#frontend---tech-stack">Frontend - Tech Stack</a>
         <li><a href="#frontend---reasons-for-the-tech-stack-selection">Frontend - Reasons for the Tech Stack Selection</a></li>
+        <li><a href="#frontend---development-process">Frontend - Development Process</a></li>
       </ul>
     </li>
     <li>
@@ -36,6 +37,7 @@
       <ul>
         <li><a href="#backend---tech-stack">Backend - Tech Stack</a>
         <li><a href="#backend---reasons-for-the-tech-stack-selection">Backend - Reasons for the Tech Stack Selection</a></li>
+        <li><a href="#backend---development-process">Backend - Development Process</a></li>
       </ul>
     </li>
   </ol>
@@ -250,6 +252,24 @@ TODO: Implement choice details in XMind Mindmap about S3, Route 53 and CloudFron
 <br>
 
 
+### Frontend - Development Process
+The frontend is developed according to the mobile-first approach.<br>
+A mobile-first approach prioritizes designing for mobile devices before scaling up to larger screens, ensuring a seamless user experience across all devices.<br>
+<br>
+The reason is that, from my point of view, it is easier to develop the desktop view retrospectively than the mobile view retrospectively.<br>
+Starting mobile-first ensures a working and simpler design at small screens, and lets the door open to implement more elements, space, features, progressively as the screen size increases.<br>
+<br>
+Other reasons are:
+- It forces you to think about the site's bare bones requirements
+- You can generally get something up and running faster
+- Mobile is the larger share of visitors for many / most sites
+
+TODO: Mention GitHub Kanban Board and XMind Mindmap. Also TDD and CI/CD.<br>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
+<br>
+
+
 
 ## Backend
 ### Backend - Tech Stack
@@ -266,4 +286,12 @@ TODO: Implement choice details in XMind Mindmap about S3, Route 53 and CloudFron
 ### Backend - Reasons for the Tech Stack Selection
 TODO: Implement<br>
 TODO: Explain further -> Originally planned AWS Elastic Beanstalk, but due to running costs and because this is a hobby project, another payment model (pay-as-you-go) with Amazon Lambda or similar would be good.<br>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
+<br>
+
+
+### Backend - Development Process
+TODO: Implement<br>
+TODO: Mention GitHub Kanban Board and XMind Mindmap. Also TDD and CI/CD.<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
