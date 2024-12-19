@@ -46,7 +46,7 @@
 
 ## Introduction
 E-Commerce Shop where you can browse, buy and collect Pokémon.<br>
-The shop is built as a single page application (SPA) to ensure a great user experience!<br>
+The shop is built as a single-page application (SPA) to ensure a great user experience!<br>
 <br>
 Teaser pictures of the initial design mockups during the planning phase for a first impression of the project:<br>
 
@@ -71,7 +71,7 @@ Teaser pictures of the initial design mockups during the planning phase for a fi
 - Project Goal: Improving my software development skills in both frontend and backend as well as Cloud and DevOps. At the same time creating a fun project for a bit of nostalgia (childhood) ;-)
 - Number of Project Participants: 2
 - Time Period: October, 2024 - Present
-- Industry / Area: E-Commerce, Pokemon
+- Industry / Area: E-Commerce, Pokémon
 - Role: Developer
 - Languages: German, English
 - Result: TODO
