@@ -67,7 +67,7 @@ Teaser pictures of the initial design mockups during the planning phase for a fi
 ## General
 ### General Information about the Project
 - Client: Myself
-- Project Goal: TODO
+- Project Goal: Improving my software development skills in both frontend and backend as well as Cloud and DevOps. At the same time creating a fun project for a bit of nostalgia (childhood) ;-)
 - Number of Project Participants: 2
 - Time Period: October, 2024 - Present
 - Industry / Area: E-Commerce, Pokemon
@@ -80,7 +80,9 @@ Teaser pictures of the initial design mockups during the planning phase for a fi
 
 
 ### Important Notes
-TODO: Insert Hint PokeAPI and Fan Project, no commercial profit is made.<br>
+The project uses the [PokéAPI](https://pokeapi.co/) to obtain the Pokémon data.<br>
+Although the project is an e-commerce shop, it does <ins>not</ins> make any commercial profit.<br>
+Any commercial transaction is purely exemplary and involves imaginary currency.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
