@@ -290,14 +290,19 @@ I opted for the Tech Stack for the following reasons:<br>
 `Programming Language: JavaScript / TypeScript` - Defacto standard in frontend development.<br>
 Since I am a big fan of the concept of strong or static typing in programming languages, so that fewer errors occur in the code and JavaScript is untyped, I also use TypeScript.<br>
 And JavaScript can sometimes do some really wild things...<br>
+<br>
 `UI Design Tool: Figma` - Design tool from my designer.<br>
 It offers a lot and I can leave my comments on the design mockups.<br>
+<br>
 `Library: React` - I learned React through further education and React also offers the most job opportunities in my area, where I would like to stay.<br>
 That's why I chose React.<br>
+<br>
 `Library: Redux` - Very good for managing states of UI/React components efficiently and easily.<br>
 Used together with the Redux Toolkit to make things even easier (e. g. to combine reducers or easy redux store setup).<br>
+<br>
 `Build Tool: Vite` - Used to optimize code for the production system (faster build times and smaller bundle sizes).<br>
 Was also used in React course and therefore knew the tool - learning curve is smaller.<br>
+<br>
 TODO: Implement choice details in XMind Mindmap about S3, Route 53 and CloudFront (e. g. why CDN if the project is mainly aimed at Germany / the country of origin of repo owner)?<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
