@@ -1,15 +1,12 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
-# SPA: E-Commerce Shop Pokemon - Catch 'em All!
-Single-Page Application: E-Commerce Shop where you can browse, buy and collect Pokemon.<br>
-<br>
+# E-Commerce Shop Pokemon - Catch 'em All!
 
 <!-- TABLE OF CONTENTS -->
 <details open>
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#teaser">Teaser</a></li>
     <li>
       <a href="#information-about-the-project">Information about the Project</a>
       <ul>
@@ -49,14 +46,10 @@ Single-Page Application: E-Commerce Shop where you can browse, buy and collect P
 
 
 ## Introduction
-TODO: Implement<br>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+E-Commerce Shop where you can browse, buy and collect Pokemon.<br>
+The shop is built as a single page application (SPA) to ensure a better user experience!<br>
 <br>
-<br>
-
-
-## Teaser
-Pictures during the planning phase for a first impression of the project:<br>
+Teaser pictures during the planning phase for a first impression of the project:<br>
 
 ![teaser1-picture-description-stats](https://github.com/user-attachments/assets/8b405cd1-f58a-4137-8f58-5f288e1e44ef)
 
@@ -71,6 +64,7 @@ Pictures during the planning phase for a first impression of the project:<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
+
 
 
 ## Information about the Project
