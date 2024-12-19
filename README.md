@@ -144,7 +144,7 @@ The code follows the **Model-View-Controller** pattern with all of the database 
 ### General - Tech Stack
 This tech stack refers to things that are used in the frontend as well as the backend or neither.<br>
 For backend or frontend specific tech stack please read the corresponding section in the `README.md`.<br>
-Help is provided in the table of contents at the beginning of the `README.md`.<br>
+It is best to use the table of contents at the beginning of the `README.md` to get an overview and jump to the desired sections.<br>
 <br>
 The tech stack - `General`:<br>
 - Mind Mapping Tool: XMind
