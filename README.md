@@ -14,14 +14,9 @@
         <li><a href="#important-notes">Important Notes</a></li>
         <li><a href="#roadmap">Roadmap</a></li>
         <li><a href="#project-folder-layout">Project Folder Layout</a></li>
+        <li><a href="#general---tech-stack">General - Tech Stack</a></li>
+        <li><a href="#general---reasons-for-the-tech-stack-selection">General - Reasons for the Tech Stack Selection</a></li>
         <li><a href="#contributors">Contributors</a></li>
-        <li>
-          <a href="#tech-stack---general">Tech Stack - General</a>
-          <ul>
-            <li><a href="#general---list">General -List</a></li>
-            <li><a href="#general---reasons-for-the-selection">General - Reasons for the Selection</a></li>
-          </ul>
-        </li>
         <li>
           <a href="#tech-stack---backend">Tech Stack - Backend</a>
           <ul>
@@ -127,25 +122,28 @@ The code follows the **Model-View-Controller** pattern with all of the database 
 <br>
 
 
-
-### Contributors
-TODO: Restructure readme.md. Not satisfied with current structure.<br>
-See Best-README-Template as well.<br>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<br>
-
-### Tech Stack - General
-#### General - List
+## General - Tech Stack
+TODO: Insert note about backend and frontend specific tech stacks<br>
 - Mind Mapping Tool: XMind
 - IDE: Microsoft Visual Studio
 - GitHub (Version Control, Kanban Board, ...)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
+<br>
 
-#### General - Reasons for the Selection
+
+## General - Reasons for the Tech Stack Selection
 TODO: Implement<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
+<br>
+
+
+
+### Contributors
+TODO: Restructure readme.md. Not satisfied with current structure.<br>
+See Best-README-Template as well.<br>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 
 
