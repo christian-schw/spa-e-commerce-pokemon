@@ -149,6 +149,11 @@ The tech stack - `General`:<br>
 - Mind Mapping Tool: XMind
 - IDE: Microsoft Visual Studio
 - GitHub (Version Control, Kanban Board, ...)
+- Identity and Access Management: AWS IAM
+- Identity and Access Management: Microsoft Authenticator
+- Hosting (Security): AWS Certificate Manager
+- Monitoring: AWS CloudWatch
+- Monitoring: AWS Billing and Cost Management
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
@@ -224,17 +229,22 @@ If you have any questions, please feel free to reach out via email: christian-sc
 - Markup Language: HTML
 - Markup Language: CSS
 - Programming Language: JavaScript / TypeScript
-- Mind Mapping Tool: XMind
 - UI Design Tool: Figma
 - Library: React
 - Library: Redux
 - Build Tool: Vite
+- Linting: ESLint
+- TDD Framework: Jest
+- Hosting (Storage): AWS S3
+- Hosting (DNS): AWS Route 53
+- Hosting (CDN): AWS CloudFront
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
 
 ### Frontend - Reasons for the Tech Stack Selection
-TODO: Implement
+TODO: Implement<br>
+TODO: Implement choice details in XMind Mindmap about S3, Route 53 and CloudFront (e. g. why CDN if the project is mainly aimed at Germany / the country of origin of repo owner)?<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
@@ -244,11 +254,16 @@ TODO: Implement
 ## Backend
 ### Backend - Tech Stack
 - Programming Language: Python
+- Linting: PyLint
+- Web Framework: Flask
+- TDD Framework: unittest / nose
+- Hosting: AWS Elastic Beanstalk
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
 
 
 ### Backend - Reasons for the Tech Stack Selection
-TODO: Implement
+TODO: Implement<br>
+TODO: Explain further -> Originally planned AWS Elastic Beanstalk, but due to running costs and because this is a hobby project, another payment model (pay-as-you-go) with Amazon Lambda or similar would be good.<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
