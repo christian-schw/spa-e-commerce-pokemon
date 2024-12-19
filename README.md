@@ -95,8 +95,10 @@ TODO: Insert Hint PokeAPI and Fan Project, no commercial profit is made.<br>
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+For each step in the roadmap, there is an extra project with a Kanban board in the repository, in which the roadmap steps are broken down further.<br>
+TODO: Insert link to Projects Tab<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
 <br>
 
 
