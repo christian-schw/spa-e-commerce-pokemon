@@ -21,6 +21,7 @@
         <li><a href="#license">License</a></li>
         <li><a href="#getting-started">Getting Started</a></li>
         <li><a href="#acknowledgements">Acknowledgements</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li>
           <a href="#tech-stack---backend">Tech Stack - Backend</a>
           <ul>
@@ -180,6 +181,13 @@ TODO: Mention PokeAPI, Designer, Pokemon Franchise, README-Template-Repo and peo
 <br>
 
 
+## Contact
+If you have any questions, please feel free to reach out via email: christian-schwanse (at) gmx.net<br>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
+<br>
+
+
 ### Tech Stack - Backend
 #### Backend - List
 - Programming Language: Python
@@ -208,13 +216,6 @@ TODO: Implement
 
 #### Frontend - Reasons for the Selection
 TODO: Implement
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<br>
-<br>
-
-
-## Contact
-If you have any questions, please feel free to reach out via email: christian-schwanse (at) gmx.net<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
