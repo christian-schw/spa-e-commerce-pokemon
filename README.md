@@ -164,8 +164,18 @@ TODO: Implement diagramm (e. g. AWS)<br>
 
 
 ### Contributors
-TODO: Mention contributing note like in BLANK_README.md of Best-README-Template.<br>
-TODO: Mention designer (for more details view corresponding user story 'Create README.md')<br>
+Contributors:
+- Designer: <a href="www.combine-visual.com" target="_blank">combine visual - Christine Biendl</a>
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request.<br>
+You can also simply open an issue with the tag `enhancement`.<br>
+Don't forget to give the project a star! Thanks again!<br>
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
