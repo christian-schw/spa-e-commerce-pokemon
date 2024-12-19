@@ -169,7 +169,8 @@ TODO: Implement<br>
 
 
 ### Complete Overview of the System
-TODO: Implement diagramm (e. g. AWS)<br>
+TODO: Create and insert diagramm (e. g. AWS)<br>
+<!-- Help: AWS Diagramme Visio: https://www.microsoft365.com/template/Visio/?culture=de-de&country=de&categoryId=TemplateCategory_AWSDiagrams -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
@@ -253,7 +254,7 @@ TODO: Implement choice details in XMind Mindmap about S3, Route 53 and CloudFron
 
 
 ### Frontend - Development Process
-The frontend is developed according to the mobile-first approach.<br>
+The frontend is developed according to the `mobile-first` approach.<br>
 A mobile-first approach prioritizes designing for mobile devices before scaling up to larger screens, ensuring a seamless user experience across all devices.<br>
 <br>
 The reason is that, from my point of view, it is easier to develop the desktop view retrospectively than the mobile view retrospectively.<br>
@@ -264,6 +265,10 @@ Other reasons are:
 - You can generally get something up and running faster
 - Mobile is the larger share of visitors for many / most sites
 
+The frontend is also being developed as a `single-page application` (`SPA`).<br>
+A single-page application is a website or web application that dynamically rewrites a current web page with new data from the web server, instead of the default method of a web browser loading entire new pages.<br>
+This can result in performance gains and a more dynamic and better user experience (with some tradeoff disadvantages like search engine optimization).<br>
+<br>
 TODO: Mention GitHub Kanban Board and XMind Mindmap. Also TDD and CI/CD.<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
