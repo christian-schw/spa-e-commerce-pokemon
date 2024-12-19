@@ -13,6 +13,7 @@
         <li><a href="#general-information-about-the-project">General Information about the Project</a></li>
         <li><a href="#important-notes">Important Notes</a></li>
         <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#project-folder-layout">Project Folder Layout</a></li>
         <li><a href="#contributors">Contributors</a></li>
         <li>
           <a href="#tech-stack---general">Tech Stack - General</a>
@@ -38,7 +39,6 @@
       </ul>
     </li>
     <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#project-folder-layout">Project Folder Layout</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgments</a></li>
   </ol>
@@ -102,6 +102,32 @@ TODO: Insert link to Projects Tab<br>
 <br>
 
 
+## Project Folder Layout
+TODO: Use this section and change it!<br>
+<br>
+The code for the microservice is contained in the `service` package. All of the test are in the `tests` folder.<br>
+The code follows the **Model-View-Controller** pattern with all of the database code and business logic in the model (`models.py`), and all of the RESTful routing on the controller (`routes.py`).<br>
+
+```text
+├── service         <- microservice package
+│   ├── common/     <- common log and error handlers
+│   ├── config.py   <- Flask configuration object
+│   ├── models.py   <- code for the persistent model
+│   └── routes.py   <- code for the REST API routes
+├── setup.cfg       <- tools setup config
+└── tests                       <- folder for all of the tests
+    ├── factories.py            <- test factories
+    ├── test_cli_commands.py    <- CLI tests
+    ├── test_models.py          <- model unit tests
+    └── test_routes.py          <- route unit tests
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
+<br>
+
+
+
 ### Contributors
 TODO: Restructure readme.md. Not satisfied with current structure.<br>
 See Best-README-Template as well.<br>
@@ -159,31 +185,6 @@ TODO: Implement
 
 ## Getting Started
 TODO: Implement<br>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<br>
-<br>
-
-
-## Project Folder Layout
-TODO: Use this section and change it!<br>
-<br>
-The code for the microservice is contained in the `service` package. All of the test are in the `tests` folder.<br>
-The code follows the **Model-View-Controller** pattern with all of the database code and business logic in the model (`models.py`), and all of the RESTful routing on the controller (`routes.py`).<br>
-
-```text
-├── service         <- microservice package
-│   ├── common/     <- common log and error handlers
-│   ├── config.py   <- Flask configuration object
-│   ├── models.py   <- code for the persistent model
-│   └── routes.py   <- code for the REST API routes
-├── setup.cfg       <- tools setup config
-└── tests                       <- folder for all of the tests
-    ├── factories.py            <- test factories
-    ├── test_cli_commands.py    <- CLI tests
-    ├── test_models.py          <- model unit tests
-    └── test_routes.py          <- route unit tests
-```
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
