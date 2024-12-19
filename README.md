@@ -16,8 +16,10 @@
         <li><a href="#project-folder-layout">Project Folder Layout</a></li>
         <li><a href="#general---tech-stack">General - Tech Stack</a></li>
         <li><a href="#general---reasons-for-the-tech-stack-selection">General - Reasons for the Tech Stack Selection</a></li>
+        <li><a href="#complete-overview-of-the-system">Complete Overview of the System</a></li>
         <li><a href="#contributors">Contributors</a></li>
         <li><a href="#license">License</a></li>
+        <li><a href="
         <li>
           <a href="#tech-stack---backend">Tech Stack - Backend</a>
           <ul>
@@ -139,6 +141,12 @@ TODO: Implement<br>
 <br>
 <br>
 
+
+## Complete Overview of the System
+TODO: Implement diagramm (e. g. AWS)<br>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
+<br>
 
 
 ## Contributors
