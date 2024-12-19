@@ -18,7 +18,6 @@
         <li><a href="#general---reasons-for-the-tech-stack-selection">General - Reasons for the Tech Stack Selection</a></li>
         <li><a href="#complete-overview-of-the-system">Complete Overview of the System</a></li>
         <li><a href="#contributors">Contributors</a></li>
-        <li><a href="#license">License</a></li>
         <li><a href="#getting-started">Getting Started</a></li>
         <li><a href="#acknowledgements">Acknowledgements</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -180,6 +179,8 @@ TODO: Create and insert diagramm (e. g. AWS)<br>
 Contributors:
 - Designer: [combine visual - Christine Biendl](http://www.combine-visual.com)
 
+<!-- Note: Not sure if it should be included in README.md. Must match with the license used for this repo!
+
 If you have a suggestion that would make this better, please fork the repo and create a pull request.<br>
 You can also simply open an issue with the tag `enhancement`.<br>
 Don't forget to give the project a star! Thanks again!<br>
@@ -189,20 +190,26 @@ Don't forget to give the project a star! Thanks again!<br>
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+-->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
 
+<!-- Note: Not sure if I want to share this with others as it is a fun project on my part. If yes, include link in table of contents.
+Help: https://choosealicense.com/ (page from GitHub)
 
 ### License
 TODO: Implement. Not sure if I need this.<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
+-->
 
 
 ### Getting Started
-TODO: Implement (individually for backend and frontend as well as together)<br>
+For the time being, it is not planned to clone / fork the project. This may be changed at a later date.<br>
+The URL of the website is: https://trainers-trove.com/<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
