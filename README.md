@@ -8,9 +8,10 @@
   <ol>
     <li><a href="#introduction">Introduction</a></li>
     <li>
-      <a href="#information-about-the-project">Information about the Project</a>
+      <a href="#general">General</a>
       <ul>
-        <li><a href="#general">General</a></li>
+        <li><a href="#general-information-about-the-project">General Information about the Project</a></li>
+        <li><a href="#important-notes">Important Notes</a></li>
         <li><a href="#roadmap">Roadmap</a></li>
         <li><a href="#contributors">Contributors</a></li>
         <li>
@@ -66,9 +67,8 @@ Teaser pictures during the planning phase for a first impression of the project:
 <br>
 
 
-
-## Information about the Project
-### General
+## General
+### General Information about the Project
 - Client: Myself
 - Project Goal: TODO
 - Number of Project Participants: 2
@@ -77,7 +77,17 @@ Teaser pictures during the planning phase for a first impression of the project:
 - Role: Developer
 - Languages: German, English
 - Result: TODO
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
+<br>
+
+
+### Important Notes
+TODO: Insert Hint PokeAPI and Fan Project, no commercial profit is made.<br>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
+<br>
+
 
 ### Roadmap
 - [ ] Feature 1
