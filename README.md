@@ -87,13 +87,20 @@ TODO: Insert Hint PokeAPI and Fan Project, no commercial profit is made.<br>
 
 
 ### Roadmap
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Analyze current status
+- [ ] Document progress
+- [ ] Prepare for the next implementation steps
+- [ ] Backend
+    - [ ] Setting up development environment
+    - [ ] TODO: Insert further steps
+- [ ] Frontend
+    - [ ] TODO: Insert further steps
 
-For each step in the roadmap, there is an extra project with a Kanban board in the repository, in which the roadmap steps are broken down further.<br>
-TODO: Insert link to Projects Tab<br>
+As I have suddenly stopped working on the project for a while for certain reasons and unfortunately have not documented the progress in detail, I first need to determine the current status of the project.<br>
+Then document it and prepare for the next steps.<br>
+<br>
+The general plan is that the backend is roughly completed first, before the frontend comes next.<br>
+For each step in the roadmap, there is an extra project (see tab `Projects` in GitHub repository) with a Kanban board in the repository, in which the roadmap steps are broken down further.<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
