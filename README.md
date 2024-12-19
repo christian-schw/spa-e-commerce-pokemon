@@ -246,7 +246,7 @@ The URL of the website is: https://trainers-trove.com/<br>
 ## Acknowledgements
 * [combine visual - Christine Biendl](http://www.combine-visual.com): Thanks to the designer for her active support! The design isn't finished yet and I can't work on the project all the time due to work and other commitments. I really appreciate the fact that I can ask her for help at any time, that she responds to my questions and creates great designs for me.
 * [othneildrew](https://github.com/othneildrew/Best-README-Template/tree/main): Thank you and the contributors of the `Best-README-template`-repository for providing the `README.md` template! I have already been able to conjure up some beautiful texts for my repositories with it.
-* [PokéAPI](https://pokeapi.co/): Thanks for providing the Pokémon data! It saves a lot of work to create the data (Pokémon values, Pokédex, ...) yourself
+* [PokéAPI](https://pokeapi.co/): Thanks for providing the Pokémon data! It saves a lot of work by not having to create the data (Pokémon values, Pokédex, ...) myself.
 * Creators of the Pokémon Franchise: I was able to build up many great childhood experiences and friendships with it! I still enjoy playing Pokémon today, for example on the Nintendo Switch.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
