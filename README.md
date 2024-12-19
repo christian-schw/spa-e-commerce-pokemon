@@ -107,8 +107,12 @@ For each step in the roadmap, there is an extra project (see tab `Projects` in G
 
 
 ### Project Folder Layout
-TODO: Use this section and change it!<br>
+The project is a full-stack application.<br>
+Accordingly, there is both a `backend` and a `frontend` folder.<br>
 <br>
+TODO: Implement further details<br>
+
+<!-- Change the content of comment and uncomment it at the end when everything fits.
 The code for the microservice is contained in the `service` package. All of the test are in the `tests` folder.<br>
 The code follows the **Model-View-Controller** pattern with all of the database code and business logic in the model (`models.py`), and all of the RESTful routing on the controller (`routes.py`).<br>
 
@@ -125,7 +129,7 @@ The code follows the **Model-View-Controller** pattern with all of the database 
     ├── test_models.py          <- model unit tests
     └── test_routes.py          <- route unit tests
 ```
-
+-->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
