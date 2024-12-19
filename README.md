@@ -92,8 +92,11 @@ TODO: Insert Hint PokeAPI and Fan Project, no commercial profit is made.<br>
 - [ ] Prepare for the next implementation steps
 - [ ] Backend
     - [ ] Setting up development environment
+    - [ ] Setting up CI/CD pipeline
     - [ ] TODO: Insert further steps
 - [ ] Frontend
+    - [ ] Setting up development environment
+    - [ ] Setting up CI/CD pipeline
     - [ ] TODO: Insert further steps
 
 As I have suddenly stopped working on the project for a while for certain reasons and unfortunately have not documented the progress in detail, I first need to determine the current status of the project.<br>
@@ -196,10 +199,10 @@ TODO: Implement (individually for backend and frontend as well as together)<br>
 
 
 ## Acknowledgements
-TODO: Mention PokeAPI, Designer, Pokemon Franchise, README-Template-Repo and people who taught me a lot.<br>
-* []()
-* []()
-* []()
+* [combine visual - Christine Biendl](http://www.combine-visual.com): Thanks to the designer for her active support! The design isn't finished yet and I can't work on the project all the time due to work and other commitments. I really appreciate the fact that I can ask her for help at any time, that she responds to my questions and conjures up great designs for me.
+* [othneildrew](https://github.com/othneildrew/Best-README-Template/tree/main): Thank you and the contributors of the `Best-README-template`-repository for providing the `README.md` template! I have already been able to conjure up some beautiful texts for my repositories with it.
+* [PokéAPI](https://pokeapi.co/): Thanks for providing the Pokemon data! It saves a lot of work to create the data (Pokemon values, Pokedex, ...) yourself
+* Creators of the Pokémon Franchise: I was able to build up many great childhood experiences and friendships with it! I still enjoy playing Pokemon today, for example on the Nintendo Switch.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
