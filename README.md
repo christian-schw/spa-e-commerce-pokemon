@@ -161,7 +161,7 @@ The tech stack - `General`:<br>
 
 
 ### General - Reasons for the Tech Stack Selection
-I opted for the Tech Stack for the following reasons:<br>
+I opted for the tech stack for the following reasons:<br>
 <br>
 `Mind Mapping Tool: XMind` - Already used in past projects, so already know how to use the tool.<br>
 Very good for finding ideas and organizing thoughts.<br>
@@ -281,7 +281,7 @@ If you have any questions, please feel free to reach out via email: christian-sc
 <br>
 
 ### Frontend - Reasons for the Tech Stack Selection
-I opted for the Tech Stack for the following reasons:<br>
+I opted for the tech stack for the following reasons:<br>
 <br>
 `Markup Language: HTML` - No alternative in frontend development.<br>
 <br>
@@ -366,7 +366,7 @@ The development process will also be optimized with CI/CD in the future.<br>
 
 
 ### Backend - Reasons for the Tech Stack Selection
-I opted for the Tech Stack for the following reasons:<br>
+I opted for the tech stack for the following reasons:<br>
 <br>
 `Programming Language: Python` - Already completed many projects with Python.<br>
 I didn't know any other backend language at the time (apart from JavaScript, but I'm not familiar with backend frameworks or ABAP - but that's only for SAP).<br>
