@@ -303,7 +303,25 @@ Used together with the Redux Toolkit to make things even easier (e. g. to combin
 `Build Tool: Vite` - Used to optimize code for the production system (faster build times and smaller bundle sizes).<br>
 Was also used in React course and therefore knew the tool - learning curve is smaller.<br>
 <br>
-TODO: Implement choice details in XMind Mindmap about S3, Route 53 and CloudFront (e. g. why CDN if the project is mainly aimed at Germany / the country of origin of repo owner)?<br>
+`Linting: ESLint` - Linting tools offer a crucial benefit in error prevention by identifying issues as they are created, even before code execution.<br>
+This significantly improves code reliability and reduces likelihood of issues ever turning into bugs.<br>
+I have used ESLint several times and am quite happy with it.<br>
+<br>
+`TDD Framework: Jest` - Already completed projects with it.<br>
+In my opinion, it offers all the functions you need.<br>
+<br>
+`Hosting (Storage): AWS S3` - Scalable object storage service that allows you to store and retrieve data.<br>
+The costs are very low and is easy to integrate with other AWS services.<br>
+<br>
+`Hosting (DNS): AWS Route 53` - AWS S3 provides predefined "weird" domain (like `http://www.domain.com.s3-website.availability-zone.amazonaws.com/`).<br>
+This is very long and user unfriendly.<br>
+Therefore, AWS Route 53 is used as DNS to use a nice short, user-friendly domain.<br>
+The endpoint remains the same for the client and the services can also be exchanged more easily in the background.<br>
+Integrates nicely with AWS S3.<br>
+<br>
+`Hosting (CDN): AWS CloudFront` - Why use a content delivery network if the target group of the project is mainly Germany / country of origin of the repository owner?<br>
+The reason: A CloudFront distribution in front of the AWS S3 bucket will reduce the data transfer costs (and making them zero if less than 1 TB is served per month of static content).<br>
+It improves performance and security (preventing DDoS attacks e. g.) which in turn can reduce costs.<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
