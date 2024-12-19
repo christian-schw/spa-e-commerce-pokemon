@@ -343,7 +343,10 @@ The frontend is also being developed as a `single-page application` (`SPA`).<br>
 A single-page application is a website or web application that dynamically rewrites a current web page with new data from the web server, instead of the default method of a web browser loading entire new pages.<br>
 This can result in performance gains and a more dynamic and better user experience (with some tradeoff disadvantages like search engine optimization).<br>
 <br>
-TODO: Mention GitHub Kanban Board and XMind Mindmap. Also TDD and CI/CD.<br>
+When it comes to the development of features, these are documented and prioritized in detail as user stories (using a template and Gherkin syntax) in the GitHub Kanban Board (see `Projects` tab in GitHub repository).<br>
+A new GitHub branch is created for each feature.<br>
+Tests are then developed according to the Test Driven Development approach (also Behavior Driven Development for UI), which must subsequently be fulfilled.<br>
+The development process will also be optimized with CI/CD in the future.<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
@@ -388,6 +391,8 @@ Originally I wanted to use AWS Elastic Beanstalk, but due to running costs and b
 
 
 ### Backend - Development Process
-TODO: Implement<br>
-TODO: Mention GitHub Kanban Board and XMind Mindmap. Also TDD and CI/CD.<br>
+When it comes to the development of features, these are documented and prioritized in detail as user stories (using a template and Gherkin syntax) in the GitHub Kanban Board (see `Projects` tab in GitHub repository).<br>
+A new GitHub branch is created for each feature.<br>
+Tests are then developed according to the Test Driven Development approach, which must subsequently be fulfilled.<br>
+The development process will also be optimized with CI/CD in the future.<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
