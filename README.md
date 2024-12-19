@@ -161,7 +161,25 @@ The tech stack - `General`:<br>
 
 
 ### General - Reasons for the Tech Stack Selection
-TODO: Implement<br>
+I opted for the Tech Stack for the following reasons:<br>
+<br>
+`Mind Mapping Tool: XMind` - Already used in past projects, so already know how to use the tool. Very good for finding ideas and organizing thoughts.<br>
+<br>
+`IDE: Microsoft Visual Studio` - Already used in past projects, so already know how to use the tool. Offers a lot of functions and, due to its popularity, also has a lot of documentation / extensions.<br>
+<br>
+`GitHub (Version Control, Kanban Board, ...)` - Industry standard. Even as a solo developer, this is very helpful if you can version manage your code (e. g. undo incorrect changes). Offers many functions and lots of documentation.<br>
+<br>
+`AWS in general` - Since I like to deal with the cloud and would like to get better at it, I used one of the most popular cloud providers. I chose AWS because I have also found several jobs in my area and would like to stay there.<br>
+<br>
+`Identity and Access Management: AWS IAM` - To increase security of AWS tech stack among other things (e.g. do not use the root user for everything, but non-root users).<br>
+<br>
+`Identity and Access Management: Microsoft Authenticator` - To set up multi-factor authentication for AWS. Already used for other things and have been satisfied so far. That's why I opted for it again here.<br>
+<br>
+`Hosting (Security): AWS Certificate Manager` - To improve the security of communication over the Internet. In addition, better user experience when, for example, the browser does not say that the website is insecure and blocks connection, which gives users a greater sense of security.<br>
+<br>
+`Monitoring: AWS CloudWatch` - As I cannot estimate the costs of AWS, I have set up alerts as soon as certain values exceed a limit. This means I don't have to check the costs manually every time and can react more quickly.<br>
+<br>
+`Monitoring: AWS Billing and Cost Management` - Overview of AWS costs. Goes hand in hand somewhere with AWS CloudWatch Alerting.<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
