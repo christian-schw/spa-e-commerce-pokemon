@@ -30,23 +30,28 @@ function App() {
   const [teaserImages, setTeaserImages] = useState([
     {
       src: teaser1,
-      alt: "Teaser: Overview of the Pokemon"
+      alt: "Teaser: Overview of the Pokemon",
+      class: "teaser-image"
     },
     {
       src: teaser2,
-      alt: "Teaser: Tab - Facts"
+      alt: "Teaser: Tab - Facts",
+      class: "teaser-image"
     },
     {
       src: teaser3,
-      alt: "Teaser: Pokemon Evolution"
+      alt: "Teaser: Pokemon Evolution",
+      class: "teaser-image"
     },
     {
       src: teaser4,
-      alt: "Teaser: View - Tablet Device"
+      alt: "Teaser: View - Tablet Device",
+      class: "teaser-image"
     },
     {
       src: teaser5,
-      alt: "Teaser: View - Smartphone Device"
+      alt: "Teaser: View - Smartphone Device",
+      class: "teaser-image"
     }
   ])
 
@@ -106,7 +111,7 @@ function App() {
       <div>
         {
           teaserImages.map(
-            (image, index) => <img key={index} src={image.src} alt={image.alt}></img>
+            (image, index) => <img key={index} className={image.class} src={image.src} alt={image.alt}></img>
           )
         }
       </div>

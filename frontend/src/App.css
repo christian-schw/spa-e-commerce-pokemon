@@ -1,10 +1,31 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1.5rem;
   text-align: center;
 }
 
+
+/* 
+  ========================================================================
+  ====================== Mobile Responsiveness ===========================
+  ======================================================================== 
+*/
+/* 
+  Media Query Breakpoints are based on the sizes of the devices 
+  in Google developer tools. 
+*/
+@media (max-width: 320px) {
+  .teaser-image {
+    max-width: 240px;
+  }
+}
+
+
+
+/* ======== React / Vite Standard CSS ======== */
+/* Improve in future: Delete this section later if not needed */
+/*
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -40,3 +61,4 @@
 .read-the-docs {
   color: #888;
 }
+*/
