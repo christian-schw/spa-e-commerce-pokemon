@@ -15,6 +15,12 @@
   Media Query Breakpoints are based on the sizes of the devices 
   in Google developer tools. 
 */
+@media (max-width: 375px) {
+  .teaser-image {
+    max-width: 300px;
+  }
+}
+
 @media (max-width: 320px) {
   .teaser-image {
     max-width: 240px;
