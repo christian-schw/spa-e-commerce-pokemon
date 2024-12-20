@@ -6,30 +6,18 @@
 }
 
 
-/* 
-  ========================================================================
-  ====================== Mobile Responsiveness ===========================
-  ======================================================================== 
-*/
-/* 
-  Media Query Breakpoints are based on the sizes of the devices 
-  in Google developer tools. 
-*/
-@media (max-width: 375px) {
-  .teaser-image {
-    max-width: 300px;
-  }
-}
-
-@media (max-width: 320px) {
-  .teaser-image {
-    max-width: 240px;
-  }
+.teaser-image {
+  /* For mobile responsiveness */
+  max-width: 100%;
 }
 
 
 
-/* ======== React / Vite Standard CSS ======== */
+/* 
+   ===========================================
+   ======== React / Vite Standard CSS ========
+   ===========================================
+*/
 /* Improve in future: Delete this section later if not needed */
 /*
 .logo {
