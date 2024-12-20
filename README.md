@@ -272,7 +272,7 @@ If you have any questions, please feel free to reach out via email: christian-sc
 - Library: Redux
 - Build Tool: Vite
 - Linting: ESLint
-- TDD Framework: Jest
+- Testing Framework: Jest
 - Hosting (Storage): AWS S3
 - Hosting (DNS): AWS Route 53
 - Hosting (CDN): AWS CloudFront
@@ -307,7 +307,8 @@ Was also used in React course and therefore knew the tool - learning curve is sm
 This significantly improves code reliability and reduces likelihood of issues ever turning into bugs.<br>
 I have used ESLint several times and I am quite happy with it.<br>
 <br>
-`TDD Framework: Jest` - Already completed projects with it.<br>
+`Testing Framework: Jest` - Already completed projects with it.<br>
+Used for Test-Driven Development (TDD).<br>
 In my opinion, it offers all the functions you need.<br>
 <br>
 `Hosting (Storage): AWS S3` - Scalable object storage service that allows you to store and retrieve data.<br>
@@ -358,7 +359,7 @@ The development process will also be optimized with CI/CD in the future.<br>
 - Programming Language: Python
 - Linting: PyLint
 - Web Framework: Flask
-- TDD Framework: unittest / nose
+- Testing Framework: unittest / nose
 - Hosting: AWS Elastic Beanstalk
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
@@ -380,7 +381,8 @@ I have used PyLint several times and I am quite happy with it.<br>
 `Web Framework: Flask` - Already completed projects with Flask.<br>
 I opted for it (and against Django, for example) because Flask is more suitable for smaller use cases and I don't have the time to build a huge backend anyway.<br>
 <br>
-`TDD Framework: unittest / nose` - Already completed projects with it.<br>
+`Testing Framework: unittest / nose` - Already completed projects with it.<br>
+Used for Test-Driven Development (TDD).<br>
 In my opinion, it offers all the functions you need.<br>
 <br>
 `Hosting: AWS Elastic Beanstalk` - As a RESTful API is being developed, among other things, I need a server / have to host it.<br>
