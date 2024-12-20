@@ -60,7 +60,6 @@ function App() {
     }
   }
 
-  // TODO: Implement error handling axios
   const fetchUsers = async () => {
     const response = await axios.get(pokemonAPI.domain.prod.concat("/test-api/test1"))
       .then(response => {
