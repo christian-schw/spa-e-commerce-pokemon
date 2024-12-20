@@ -74,7 +74,7 @@ Teaser pictures of the initial design mockups during the planning phase for a fi
 - Industry / Area: E-Commerce, Pokémon
 - Role: Developer
 - Languages: German, English
-- Result: TODO
+- Result: Project is still in the development phase.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
