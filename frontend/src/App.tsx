@@ -63,13 +63,23 @@ function App() {
   // TODO: Implement error handling axios
   const fetchUsers = async () => {
     const response = await axios.get(pokemonAPI.domain.prod.concat("/test-api/test1"))
-    console.log(response.data.users)
-    setUsers(response.data.users)
+      .then(response => {
+        console.log(response.data.users)
+        setUsers(response.data.users)
+      })
+      .catch(error => {
+        console.log("Failed attempt to fetch users.")
+      })
   }
 
   const healthCheck = async () => {
     const response = await axios.get(pokemonAPI.domain.prod.concat("/health-check"))
-    console.log(response.data)
+      .then(response => {
+        console.log(response.data)
+      })
+      .catch(error => {
+        console.log("Health check failed. API could not be reached.")
+      })
   }
 
   useEffect(() => {
