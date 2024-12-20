@@ -105,8 +105,8 @@ function App() {
       </p>*/}
       <p>
         The project is an e-commerce shop where you can browse, buy and collect Pokémon.<br></br>
-        The project is still in the development phase. To get you excited about it, here are a few teaser
-        images:
+        The project is still in the development phase. The code and other parts of the project can be found in the <a href="https://github.com/christian-schw/spa-e-commerce-pokemon" target="_blank">GitHub repository</a>.<br></br>
+        To get you excited about it, here are a few teaser images from the design mockups of my designer (<a href="https://www.combine-visual.com/" target="_blank">combine visual - Christine Biendl</a>):
       </p>
       <div>
         {
@@ -115,6 +115,14 @@ function App() {
           )
         }
       </div>
+      <p>
+        Have a great time!<br></br>
+        <br></br>
+        Greetings from the developer<br></br>
+        <br></br>
+        <br></br>
+        Christian Schwanse
+      </p>
     </>
   )
 }
